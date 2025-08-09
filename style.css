@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-@font-face {
+/*@font-face {
   font-family: "Tomatoes";
   src: url(main/Tomatoes-O8L8.ttf) format('truetype');
-}
+}*/
     
 html {
   font-size: 62.5%;
@@ -37,9 +37,4 @@ div {
   border: 15px blue;
   padding: 50px;
   margin: 20px;
-}
-
-h1 {
-  font-family:"Tomatoes", sans-serif:
-  
 }
