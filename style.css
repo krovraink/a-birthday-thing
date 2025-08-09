@@ -1,13 +1,9 @@
-* {
+	* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*@font-face {
-  font-family: "Tomatoes";
-  src: url(main/Tomatoes-O8L8.ttf) format('truetype');
-}*/
     
 html {
   font-size: 62.5%;
@@ -18,6 +14,21 @@ body {
   font-family: "comic sans";
   font-size: 1.8rem;
   background-color: #faffff;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('peak bg.jpg');
+  background-size: cover;
+  background-position: center;
+  scroll-behavior: smooth;
+  background-repeat: repeat-y;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .header {
@@ -32,9 +43,12 @@ body {
   z-index: 9999;
 }
 
-div {
-  width: 300px;
-  border: 15px blue;
-  padding: 50px;
+.text_holder {
+  width: 1225px;
+  border: 10px solid #C080FF;
+  background-color:#C080FF ;
+  padding: 30px;
   margin: 20px;
+  opacity: 1;
+  z-index: 1;
 }
