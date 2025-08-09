@@ -34,7 +34,7 @@ body {
 
 div {
   width: 300px;
-  border: 15px #CF9FFF;
+  border: 15px blue;
   padding: 50px;
   margin: 20px;
 }
