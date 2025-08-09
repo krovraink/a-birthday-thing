@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: "Tomatoes-O8L8";
-  src: url(main/Tomatoes-O8L8) ;
+  font-family: "Tomatoes";
+  src: url(main/Tomatoes-O8L8) format('truetype');
 }
     
 html {
@@ -37,4 +37,9 @@ div {
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+}
+
+h1 {
+  font-family:"Tomatoes", sans-serif:
+  
 }
