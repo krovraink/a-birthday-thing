@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Tomatoes-O8L8";
+  src: url(main/Tomatoes-O8L8) ;
+}
+    
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
